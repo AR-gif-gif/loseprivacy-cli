@@ -25,7 +25,7 @@ def main():
     lp = LosePrivacy(host,apikey,ratelimit,timeout,logging.INFO)
     lp.init_data()
     lp.load_data()
-    res = lp.search_qq("2118558610")
+    res = lp.search_identity("18029826980")
     print(res)
 
 if __name__ == "__main__":
